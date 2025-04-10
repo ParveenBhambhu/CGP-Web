@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("./root.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.font-tomorrow {
+  font-family: Tomorrow;
+}
+h1,
+p {
+  margin-bottom: 0px;
+}
+
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url("/assests/font/bebasneuecyrillic.ttf");
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("/assests/font/segoeui.ttf");
+}
+
+.font-bebas-neue {
+  font-family: "Bebas Neue Cyrillic";
+}
+.font-segoe {
+  font-family: "Segoe UI";
+}
+
+.container {
+  max-width: 1115px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.nav-link:hover {
+  border-bottom: 1px solid var(--color-primary);
+  transition-duration: 2s;
+  color: var(--color-primary);
+}
+.hero-section-text {
+  gap: 27px;
+}
+
+.herosection-bg-img {
+  background-image: url("/assests/images/png/herosection-bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 594px;
+}
+.nav-links-main {
+  gap: 40px;
+}
+.navbar-toggler-icon {
+  background-color: var(--color-primary);
+}
+.btn:hover {
+  color: black;
+  background-color: var(--color-primary);
+  transition-duration: 1s;
+}
+
+.social-media-link:hover {
+  scale: 0.8;
+  transition-duration: 1s;
+}
+
+.nav-btn {
+  border: 2px solid var(--color-primary);
+  border-radius: 100px;
+  width: 160px;
+  height: 36px;
+}
+.socialmedia-nav-links {
+  gap: 15px;
+  padding-left: 46px;
+}
+.socialmedia-web3-links {
+  gap: 15px;
+}
+
+.view-docs-btn {
+  border-radius: 45px;
+  background-color: var(--color-secondary);
+  width: 186px;
+  height: 46px;
+}
+.hero-section-main {
+  gap: 52px;
+  padding-top: 156px;
+}
+
+.most-popular-section-bg {
+  background-image: url("/assests/images/png/most-popular-section-bg.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 55px 44px 70px 41px;
+}
+.nft-api-quickstart-card {
+  max-width: 348px;
+  width: 100%;
+  background-color: var(--color-xl);
+  border: 1px solid var(--color-2xl);
+  border-radius: 16px;
+  padding: 26px 46px 23px 11px;
+}
+.nft-api-quickstart {
+  line-height: 120%;
+  max-width: 238px;
+  width: 100%;
+  padding-left: 14px;
+}
+.nft-api-card-text {
+  line-height: 142.8%;
+  letter-spacing: 0.14px;
+  padding-top: 23px;
+}
+
+.most-popular-cards-main {
+  grid-template-columns: auto auto auto;
+  column-gap: 35px;
+  row-gap: 24px;
+  padding-top: 67px;
+}
+.learn-how-section-bg {
+  background-image: url("/assests/images/png/learn-how-to-build-section-bg.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 42px 44px 59px 41px;
+}
+.alchhemy-card {
+  background-color: var(--color-5xl);
+  border-radius: 16px;
+  border: 1px solid var(--color-3xl);
+  max-width: 348px;
+  width: 100%;
+  padding: 27px 25px 22px 11px;
+}
+.alchemy-university-text {
+  line-height: 133%;
+  letter-spacing: 0.16px;
+  padding-top: 25px;
+}
+.alchemy-university {
+  line-height: 120%;
+  max-width: 188px;
+  width: 100%;
+  padding-left: 14px;
+}
+.learn-section-card-main {
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  padding-top: 43px;
+  width: 100%;
+}
+.api-reference-content {
+  gap: 24px;
+}
+.ethereum-logo-circle {
+  width: 65px;
+  height: 65px;
+  background-color: var(--color-primary);
+  border-radius: 50px;
+}
+
+.ethereum-text {
+  line-height: 114.286%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 92px;
+}
+
+.ethereum-main {
+  gap: 17px;
+}
+
+.api-all-logo-main {
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 20px;
+  row-gap: 44px;
+  padding-top: 54px;
+}
+
+.use-case-api-bg {
+  background-image: url("/assests/images/png/use-case-api-bg.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 49px 44px 65px 41px;
+}
+.use-case-api-text {
+  line-height: 175%;
+}
+.use-case-card-main {
+  grid-template-columns: auto auto auto;
+  column-gap: 35px;
+  row-gap: 28px;
+  width: 100%;
+  padding-bottom: 54px;
+  padding-top: 46px;
+}
+.industry-section-logo-main {
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-between;
+  column-gap: 27px;
+  row-gap: 40px;
+  padding-top: 49px;
+}
+.industry-section-main {
+  padding-top: 58px;
+}
+
+.join-web3-section-content {
+  gap: 38px;
+  padding-top: 47px;
+}
+
+.web3-btn-links-main {
+  gap: 44px;
+  padding-top: 51px;
+}
+
+.footer-main {
+  background-color: var(--color-5xl);
+  padding: 81px 44px 45px 44px;
+}
+
+.powering-future-footer {
+  line-height: 166.6%;
+  padding-top: 29px;
+  padding-bottom: 20px;
+  max-width: 236px;
+  width: 100%;
+}
+.ethereum-api-footer-link {
+  line-height: 166.667%;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+.api-all-link-main {
+  padding-top: 6px;
+}
+.footer-all-links-main {
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 812px;
+  margin-inline: auto;
+}
+.copyright {
+  line-height: 250%;
+  padding-top: 50px;
+}
+
+@media screen and (max-width:992px) {
+  .most-popular-cards-main{
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .most-popular-section-bg{
+    padding: 48px 0px 58px 0px;
+  }
+  .learn-section-card-main{
+    grid-template-columns: auto auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero-section-text {
+    gap: 24px;
+  }
+  .hero-section-main {
+    gap: 45px;
+  }
+  .logo{
+    width: 83px;
+    height: 40px;
+  }
+    .most-popular-cards-main{
+    grid-template-columns: auto ;
+  }
+  .nft-api-quickstart-card{
+    max-width: 100%;
+    width: 100%;
+  }
+  .nft-api-quickstart{
+    max-width: 100%;
+    width: 100%;
+  }
+   .learn-section-card-main{
+    grid-template-columns: auto ;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-section-text {
+    gap: 18px;
+  }
+  .hero-section-main {
+    gap: 30px;
+  }
+  .view-docs-btn {
+    width: 150px;
+    height: 35px;
+  }
+  .nft-api-quickstart-card{
+        padding: 26px 16px 23px 11px;
+  }
+}
