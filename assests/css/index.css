@@ -301,6 +301,9 @@ p {
   .learn-section-card-main{
     grid-template-columns: auto auto;
   }
+  .api-all-logo-main{
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 
@@ -328,6 +331,11 @@ p {
   }
    .learn-section-card-main{
     grid-template-columns: auto ;
+    justify-content: center;
+  }
+    .api-all-logo-main{
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 576px) {
@@ -343,5 +351,17 @@ p {
   }
   .nft-api-quickstart-card{
         padding: 26px 16px 23px 11px;
+  }
+    .api-all-logo-main{
+    grid-template-columns: auto auto  ;
+    justify-content: center;
+  }
+  .ethereum-logo-circle{
+    width: 50px;
+    height: 50px;
+  }
+  .ethereum-logo{
+    width: 30px;
+    height: 30px;
   }
 }
